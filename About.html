@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="e-commerce, shopping, Pixel-Mart" />
+  <meta name="description" content="Découvrez Pixel-Mart, votre nouvelle plateforme pour acheter et vendre vos produits favoris." />
+  <meta name="author" content="Pixel-Mart" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- Fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- Mobile-specific styles for the hero image -->
+  <style>
+    /* Change hero image for mobile */
+    @media only screen and (max-width: 768px) {
+      .hero_bg_box .img-box img {
+        content: url('Image_PNG.png'); /* Replace with the mobile-specific image */
+      }
+    }
+  </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>À propos - Pixel-Mart</title>
@@ -8,8 +41,66 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-       <!-- Tu mets ton header -->
+    
+
+    <header class="header_section">
+      <div class="header_top">
+        <div class="container-fluid">
+          <div class="contact_link-container">
+            <a href="" class="contact_link1">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Abomey-Calavi, Bénin
+              </span>
+            </a>
+            <a href="tel:+22941788118" class="contact_link2">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Appelez-nous : +229 41788118
+              </span>
+            </a>
+            <a href="mailto:Pixel_Mart@gmail.com" class="contact_link3">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                Contactez-nous : Pixel_Mart@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <span>Pixel-Mart</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""></span>
+            </button>
+
+            <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">À propos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="dashboard.html">Produits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">Contactez-nous</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    
         <div class="header-content">
             <h1>Découvrez l'histoire de <span>Pixel-Mart</span></h1>
             <p>Votre destination ultime pour des produits de qualité, soigneusement sélectionnés pour répondre à vos besoins.</p>
