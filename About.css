@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: url('Pixel.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+}
+
+/* Tu ajoutes le CSS pour le header */
+
+.header-content h1 {
+    font-size: 3rem;
+}
+
+.header-content span {
+    color: yellow;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.about-section {
+    background-color: white;
+    padding: 60px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+}
+
+.about-section h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.about-values {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.value-box {
+    background-color: #ffaa00;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.value-box:hover {
+    transform: scale(1.05);
+}
+
+.value-box i {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.value-box h3 {
+    font-size: 1.5rem;
+}
+
+.value-box p {
+    font-size: 1rem;
+    color: black;
+}
+
+.about-image {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-image img {
+    width: 70%;
+    border-radius: 15px;
+}
+
+.cta-section {
+    background-color: #ffaa00;
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    
+}
+
+.cta-section .btn {
+    background-color: white;
+    color: #ff6b6b;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-section .btn:hover {
+    background-color: #ffe66d;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer .social-icons li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    .about-values {
+        flex-wrap: wrap;
+    }
+    .value-box {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .header-content h1 {
+        font-size: 2rem;
+    }
+
+    .header-content p {
+        font-size: 1rem;
+    }
+
+    .about-section {
+        padding: 40px 0;
+    }
+
+    .about-values {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .value-box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .cta-section h2 {
+        font-size: 2rem;
+    }
+
+    .cta-section p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .cart-icon {
+        font-size: 1.2rem;
+    }
+
+    .header-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .header-content p {
+        font-size: 0.9rem;
+    }
+
+    .about-values {
+        flex-direction: column;
+    }
+
+    .value-box {
+        width: 100%;
+    }
+
+    .cta-section .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .about-image img {
+        width: 100%;
+    }
+}
