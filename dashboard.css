@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins" , sans-serif;
     
-
+    
 }
 
 .sidebar {
@@ -15,17 +15,22 @@
     width:80px;
     background-color: #12171e;
     padding: 0.4em 0.8em ;
-    transition:  all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 999;
 }
 
-.sidebar.active ~ .main-content{
+.sidebar.active ~ body{
     left:250px;
-    width: calc(100% - 250px)
+    width: calc(100% - 250px);
+
+
 
 }
 
 .sidebar.active{
-    width:250px
+    width:250px;
+    z-index :999;
+    transition: all 0.5s ease;
 }
 
 .main-content{
@@ -37,6 +42,9 @@
     transition: all 0.5s ease;
     width: calc(100% - 80px);
     padding: 1rem;
+    background-image: url(ch7.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
