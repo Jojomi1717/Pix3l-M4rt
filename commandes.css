@@ -104,6 +104,15 @@
 
 }
 
+.sidebar ul li  #commandes{
+    background-color: #2c0c29e4;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0.8rem;
+}
+
 .sidebar ul li a:hover {
     color: #281943;
     background-color: #ffff;

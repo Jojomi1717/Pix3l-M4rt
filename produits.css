@@ -101,7 +101,17 @@
     align-items: center;
     text-decoration: none;
     border-radius: 0.8rem;
+    
 
+}
+
+.sidebar ul li  #produits{
+    background-color: #2c0c29e4;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0.8rem;
 }
 
 .sidebar ul li a:hover {
@@ -122,6 +132,7 @@ line-height:50px;
 
 .sidebar .nav-item{
     opacity: 0;
+    
 }
 
 .sidebar.active .nav-item {
