@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel-Mart</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="messages.css" rel="stylesheet">
+    
+</head>
+<body>
+
+         
+<div class="sidebar">
+    <div class="top">
+        <!-- Optionnal --> 
+        
+
+        
+        <div class="logooo">
+            <i class="bx bxs-grid-alt"></i>
+            <span>Tableau de bord</span>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+    </div>
+
+    <ul>
+        <li>
+            <a href="#">
+                <i class="bx bx-shopping-bag"></i>
+                <span class="nav-item">Produits</span>
+            </a>
+            <span class="tooltip">Produits</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class="bx bx-message-detail"></i>
+                <span class="nav-item">Messages</span>
+            </a>
+            <span class="tooltip">Messages</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class="bx bx-food-menu"></i>
+                <span class="nav-item">Commandes</span>
+            </a>
+            <span class="tooltip">Commandes</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bxs-objects-vertical-bottom'></i>
+                <span class="nav-item">Ventes</span>
+            </a>
+            <span class="tooltip">Ventes</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class="bx bx-log-out"></i>
+                <span class="nav-item">Déconnexion</span>
+            </a>
+            <span class="tooltip">Déconnexion</span>
+        </li>
+    </ul>
+</div>
+
+<div class="main-content">
+
+</div>
+
+
+
+
+
+
+    
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function(){
+        sidebar.classList.toggle('active')
+    };
+</script>
+</body>
+</html>
