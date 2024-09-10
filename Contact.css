@@ -17,7 +17,7 @@ body {
 header {
     text-align: center;
     padding: 50px;
-    background-color: purple;
+    background-color: #5c08bc;
     color: white;
 }
 
@@ -48,7 +48,7 @@ header p {
 
 .contact-info h2, .contact-form h2 {
     margin-bottom: 20px;
-    color: purple;
+    color: #5c08bc;
 }
 
 .contact-info ul {
@@ -62,7 +62,7 @@ header p {
 
 .contact-info ul li i {
     margin-right: 10px;
-    color: purple;
+    color: #5c08bc;
 }
 
 
@@ -81,7 +81,7 @@ header p {
 }
 
 .contact-form button {
-    background-color: purple;
+    background-color: #5c08bc;
     color: white;
     border: none;
     padding: 10px 20px;
